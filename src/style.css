@@ -1,0 +1,26 @@
+.scores {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.recent-scores div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+
+.recent-scores div button {
+  height: 50%;
+}
+
+.add-score {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+ul {
+  list-style: none;
+}
