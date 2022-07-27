@@ -1,3 +1,17 @@
-.hello {
-    color: red;
-  }
+.scores {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.recent-scores div {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.add-score {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
