@@ -1,7 +1,9 @@
 import getScore from './getScore.js';
-import { addScore } from './addScore.js';
+import addScore from './addScore.js';
 
-export default function displayScoreList() {
+const displayScoreList = () => {
   const scoreArray = getScore();
   scoreArray.forEach((score) => addScore(score));
-}
+};
+
+export default displayScoreList;
