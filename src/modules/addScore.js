@@ -1,6 +1,4 @@
-import getScore from './getScore.js';
-
-export function addScore(score) {
+export default function addScore(score) {
   const scoreList = document.querySelector('ul');
   const scoreCont = document.createElement('li');
 
@@ -9,8 +7,8 @@ export function addScore(score) {
   scoreList.appendChild(scoreCont);
 }
 
-export function addScoreStorage(score) {
+/* export function addScoreStorage(score) {
   const scoreArray = getScore();
   scoreArray.push(score);
   localStorage.setItem('score', JSON.stringify(scoreArray));
-}
+} */

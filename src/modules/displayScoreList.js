@@ -1,5 +1,5 @@
 import getScore from './getScore.js';
-import { addScore } from './addScore.js';
+import addScore from './addScore.js';
 
 export default function displayScoreList() {
   const scoreArray = getScore();
