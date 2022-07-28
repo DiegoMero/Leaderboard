@@ -1,3 +1,9 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .scores {
   display: flex;
   flex-direction: row;
@@ -23,4 +29,37 @@
 
 ul {
   list-style: none;
+  padding-left: 0;
+  border: 3px solid black;
+}
+
+#refresh-button {
+  background-color: white;
+  box-shadow: 5px 5px 5px black;
+  cursor: pointer;
+}
+
+ul li:nth-child(odd) {
+  background-color: rgb(188, 188, 194);
+}
+
+ul li:nth-child(even) {
+  background-color: rgb(255, 255, 255);
+}
+
+#submit-button {
+  width: 35%;
+  background-color: white;
+  box-shadow: 5px 5px 5px black;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+#name,
+#number {
+  border: 2px solid #000;
+}
+
+h1 {
+  margin-right: 20%;
 }
